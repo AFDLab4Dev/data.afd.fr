@@ -1,0 +1,708 @@
+{
+    "WDI_IMF": {
+        "Time_serie": {
+            "NY.GDP.MKTP.KD.ZG": {
+                "duration": 20,
+                "dataset": "../data/WB_WDI_",
+                "emplacement":"environnement economique",
+                "title": "GDP growth (annual %)"
+            },
+            
+            "NY.GDP.PCAP.PP.KD": {
+                "duration": 20,
+                "dataset": "../data/WB_WDI_",
+                "emplacement":"environnement economique",
+                "title": "GDP per capita, PPP (Constant 2011 international USD)"
+            },
+             "PCPIPCH": {
+                "duration": 20,
+                "dataset": "../data/IMF_WEO_",
+                "emplacement":"environnement economique",
+                "title": "Inflation % change, Average Consumer Prices"
+            },
+             "PA.NUS.FCRF": {
+                "duration": 20,
+                "dataset": "../data/WB_WDI2_",
+                "emplacement":"environnement economique",
+                "title": "Official exchange rate (LCU per US$, period average)",
+                "note":"Only country should be visible - use 'visible:false' after series"
+            },
+              "GGXWDG_NGDP": {
+                "duration": 30,
+                "dataset": "../data/IMF_WEO_",
+                "emplacement":"environnement economique",
+                "title": "General Government Gross Debt %GDP"
+            },
+              "SL.UEM.TOTL.ZS": {
+                "duration": 20,
+                "dataset": "../data/WB_WDI_",
+                "emplacement":"environnement economique",
+                "title": "Unemployement total, % of total Labor force (modeled ILO estimate)"
+            },
+              "NID_NGDP": {
+                "duration": 30,
+                "dataset": "../data/IMF_WEO_",
+                "emplacement":"environnement economique",
+                "title": "Total Investment %GDP"
+            },
+              "FM.AST.DOMS.CN": {
+                "duration": 20,
+                "dataset": "../data/WB_WDI2_",
+                "emplacement":"environnement economique",
+                "title": "Net Domestic Credit (Current LCU)"
+            },
+              "FS.AST.PRVT.GD.ZS": {
+                "duration": 20,
+                "dataset": "../data/WB_WDI2_",
+                "emplacement":"environnement economique",
+                "title": "Domestic Credit to private sector (% of GDP)"
+            },
+              "GC.TAX.TOTL.GD.ZS": {
+                "duration": 20,
+                "dataset": "../data/WB_WDI2_",
+                "emplacement":"environnement economique",
+                "title": "Tax Revenue (% of GDP)"
+            },
+              "EG.IMP.CONS.ZS": {
+                "duration": 20,
+                "dataset": "../data/WB_WDI2_",
+                "emplacement":"environnement economique",
+                "title": "Energie imports, net (% of energy use)"
+            },
+              "EG.USE.COMM.FO.ZS": {
+                "duration": 20,
+                "dataset": "../data/WB_WDI2_",
+                "emplacement":"Developpement Humain Durable",
+                "title": "Fossil fuel energy consumption (% of total)"
+            },
+              "EG.USE.ELEC.KH.PC": {
+                "duration": 20,
+                "dataset": "../data/WB_WDI2_",
+                "emplacement":"Developpement Humain Durable",
+                "title": "Electric power consumption (kWh per capita)"
+            },
+              "EN.ATM.CO2E.PC": {
+                "duration": 20,
+                "dataset": "../data/WB_WDI2_",
+                "emplacement":"Developpement Humain Durable",
+                "title": "CO2 emissions (metric tons per capita)"
+            },
+              "MS.MIL.XPND.GD.ZS": {
+                "duration": 30,
+                "dataset": "../data/WB_WDI2_",
+                "emplacement":"Environnement Institutionnel",
+                "title": "Military expenditure (% of GDP)"
+            }
+            
+        },
+        
+        "Double_Time_serie": {
+             "BCA_NGDPD;GGXCNL_NGDP": {
+              "id1":"BCA_NGDPD",
+              "id2":"GGXCNL_NGDP",
+                "duration": 20,
+                "dataset": "../data/IMF_WEO_",
+                "emplacement":"environnement economique",
+                "title": "Current Account Balance %GDP and General Government net Lending/Borrowing"
+            },
+              "GGR_NGDP;GGX_NGDP": {
+              "id1":"GGR_NGDP",
+              "id2":"GGX_NGDP",
+                "duration": 20,
+                "dataset": "../data/IMF_WEO_",
+                "emplacement":"environnement economique",
+                "title": "General Government Revenu (%GDP) and General Government Total Expenditure (%GDP)"
+            },
+              "SL.UEM.TOTL.FE.ZS;SL.UEM.TOTL.MA.ZS": {
+              "id1":"SL.UEM.TOTL.FE.ZS",
+              "id2":"SL.UEM.TOTL.MA.ZS",
+                "duration": 20,
+                "dataset": "../data/WB_WDI2_",
+                "emplacement":"environnement economique",
+                "title": "Unemployement female, % of total female Labor force (modeled ILO estimate) & Unemployement male, % of total male Labor force (modeled ILO estimate)"
+            },
+              "SL.EMP.INSV.FE.ZS;SL.TLF.CACT.FE.ZS": {
+              "id1":"SL.EMP.INSV.FE.ZS",
+              "id2":"SL.TLF.CACT.FE.ZS",
+                "duration": 20,
+                "dataset": "../data/WB_WDI2_",
+                "emplacement":"environnement economique",
+                "title": "Share of women in wage employment in the nonagricultural sector (% of total nonagricultural & Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)"
+              },
+              "EG.ELC.ACCS.ZS;SH.H2O.SAFE.ZS": {
+              "id1":"EG.ELC.ACCS.ZS",
+              "id2":"SH.H2O.SAFE.ZS",
+              "duration": 20,
+              "dataset": "../data/WB_WDI2_",
+              "emplacement":"environnement economique",
+              "title": "Access to electricity (% of population) & improved water source (% of population with access)"
+              },
+              "IT.CEL.SETS.P2;IT.NET.USER.ZS": {
+              "id1":"IT.CEL.SETS.P2",
+              "id2":"IT.NET.USER.ZS",
+              "duration": 20,
+              "dataset": "../data/WB_WDI2_",
+              "emplacement":"environnement economique",
+              "title": "Mobile cellular subscription (per 100 people)& Internet users (per 100 people)"
+              },
+              "EG.USE.COMM.CL.ZS;EG.USE.CRNW.ZS": {
+              "id1":"EG.USE.COMM.CL.ZS",
+              "id2":"EG.USE.CRNW.ZS",
+              "duration": 20,
+              "dataset": "../data/WB_WDI2_",
+              "emplacement":"Developpement Humain Durable",
+              "title": "Alternative and nuclear energy (% of total energy use)&Combustible renewables and waste (% of total energy)"
+              },
+              "EG.USE.COMM.CL.ZS;EG.USE.CRNW.ZS": {
+              "id1":"EG.USE.COMM.CL.ZS",
+              "id2":"EG.USE.CRNW.ZS",
+              "duration": 20,
+              "dataset": "../data/WB_WDI2_",
+              "emplacement":"Developpement Humain Durable",
+              "title": "Alternative and nuclear energy (% of total energy use)&Combustible renewables and waste (% of total energy)"
+              },
+              "EN.ATM.GHGO.KT.CE;EN.ATM.METH.KT.CE": {
+              "id1":"EN.ATM.GHGO.KT.CE",
+              "id2":"EN.ATM.METH.KT.CE",
+              "duration": 20,
+              "dataset": "../data/WB_WDI2_",
+              "emplacement":"Developpement Humain Durable",
+              "title": "Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent)&Methane emissions (kt of CO2 equivalent)"
+              },
+              "SP.DYN.LE00.FE.IN;SP.DYN.LE00.MA.IN": {
+              "id1":"SP.DYN.LE00.FE.IN",
+              "id2":"SP.DYN.LE00.MA.IN",
+              "duration": 30,
+              "dataset": "../data/WB_WDI2_",
+              "emplacement":"Developpement Humain Durable",
+              "title": "Life expectancy at birth, female (years)&Life expectancy at birth, male (years)"
+              },
+              "SE.ADT.1524.LT.FE.ZS;SE.ADT.1524.LT.MA.ZS": {
+              "id1":"SE.ADT.1524.LT.FE.ZS",
+              "id2":"SE.ADT.1524.LT.MA.ZS",
+              "duration": 30,
+              "dataset":"data/WB_WDI2_",
+              "emplacement":"Developpement Humain Durable",
+              "title": "Literacy rate, youth female (% of females ages 15-24)&Life expectancy at birth, male (years)"
+              },
+              "SE.XPD.TOTL.GD.ZS;SH.XPD.TOTL.ZS": {
+              "id1":"SE.XPD.TOTL.GD.ZS",
+              "id2":"SH.XPD.TOTL.ZS",
+              "duration": 30,
+              "dataset":"data/WB_WDI2_",
+              "emplacement":"Developpement Humain Durable",
+              "title": "Government expenditure on education, total (% of GDP)&Health expenditure, total (% of GDP)"
+              }
+        },
+        
+        "Radar": {
+            "Pauvreté": {
+                "duration": 1,
+                "nb_dimension":4,
+                "dataset": "../data/WB_WDI2_",
+                "title": "Pauvreté",
+                 "emplacement":"environnement economique",
+                "id1":"SI.POV.DDAY",
+                "id2":"SI.POV.NAHC",
+                "id3":"SI.POV.URHC",
+                "id4":"SI.POV.RUHC",
+                "id5":""
+            },
+            "Part des secteurs dans le PIB": {
+                "duration": 1,
+                "nb_dimension":3,
+                "dataset": "../data/WB_WDI_",
+                "title": "Part des secteurs dans le PIB",
+                "emplacement":"environnement economique",
+                "id1":"NV.AGR.TOTL.ZS",
+                "id2":"NV.IND.TOTL.ZS",
+                "id3":"NV.SRV.TETC.ZS",
+                "id4":"",
+                "id5":""
+            },
+            "Population par groupe": {
+                "duration": 1,
+                "nb_dimension":3,
+                "dataset": "../data/WB_WDI_",
+                "title": "Population par groupe",
+                "emplacement":"Developpement Humain Durable",
+                "id1":"SP.POP.0014.TO.ZS",
+                "id2":"SP.POP.1564.TO.ZS",
+                "id3":"SP.POP.65UP.TO.ZS",
+                "id4":"",
+                "id5":""
+            },
+            "Inscriptions des élèves par niveau d'enseignement": {
+                "duration": 1,
+                "nb_dimension":3,
+                "dataset": "../data/WB_WDI2_",
+                "title": "Inscriptions des élèves par niveau d'enseignement",
+                "emplacement":"Developpement Humain Durable",
+                "id1":"SE.PRM.ENRR",
+                "id2":"SE.SEC.ENRR",
+                "id3":"SE.TER.ENRR",
+                "id4":"",
+                "id5":""
+            },
+            "Services de santé": {
+                "duration": 1,
+                "nb_dimension":3,
+                "dataset": "../data/WB_WDI2_",
+                "title": "Services de santé",
+                "emplacement":"Developpement Humain Durable",
+                "id1":"SH.MED.BEDS.ZS",
+                "id2":"SH.MED.PHYS.ZS",
+                "id3":"SH.MED.NUMW.P3",
+                "id4":"",
+                "id5":""
+            },
+            "Services sociaux": {
+                "duration": 1,
+                "nb_dimension":3,
+                "dataset": "../data/WB_WDI2_",
+                "title": "Services sociaux",
+                "emplacement":"Developpement Humain Durable",
+                "id1":"SH.XPD.PUBL",
+                "id2":"SH.XPD.OOPC.ZS",
+                "id3":"SP.POP.DPND.OL",
+                "id4":"",
+                "id5":""
+            },
+            "Capacité Statistiques": {
+                "duration": 1,
+                "nb_dimension":3,
+                "dataset": "../data/WB_WDI2_",
+                "title": "Capacité Statistiques",
+                "emplacement":"Environnement Insititutionnel",
+                "id1":"IQ.SCI.OVRL",
+                "id2":"IQ.SCI.PRD",
+                "id3":"IQ.SCI.MTHD",
+                "id4":"",
+                "id5":""
+            }
+        },
+        "Map": {
+            "NY.GDP.MKTP.KD.ZG": {
+                "duration": 1,
+                "dataset": "../data/WB_WDI_",
+                 "emplacement":"environnement economique",
+                "title": "GDP growth (annual %)"
+            },
+            "EG.ELC.ACCS.ZS": {
+                "duration": 1,
+                "dataset": "../data/WB_WDI2_",
+                 "emplacement":"environnement economique",
+                "title": "Access to electricity (% of population)"
+            },
+            "IT.NET.USER.ZS": {
+                "duration": 1,
+                "dataset": "../data/WB_WDI2_",
+                 "emplacement":"environnement economique",
+                "title": "Internet users (per 100 people)"
+            },
+            "SP.POP.TOTL": {
+                "duration": 1,
+                "dataset": "../data/WB_WDI_",
+                 "emplacement":"Developpement Humain Durable",
+                "title": "Total Population (in number of people)"
+            },
+            "IC.REG.PROC": {
+                "duration": 1,
+                "dataset": "../data/WB_WDI2_",
+                 "emplacement":"Environnement institutionnnel",
+                "title": "Start-up procedures to register a business (number)"
+            },
+            "SM.POP.REFG": {
+                "duration": 1,
+                "dataset": "../data/WB_WDI2_",
+                 "emplacement":"Environnement institutionnnel",
+                "title": "Refugee population by country or territory of asylum"
+            }
+        },
+        "Convergence": {
+              "NY.GDP.PCAP.PP.KD": {
+                "duration": 20,
+                "dataset": "../data/WB_WDI_",
+                "emplacement":"environnement economique",
+                "title": "GDP per capita, PPP (Constant 2011 international USD)"
+            }
+        }
+    },
+    
+    "GALLUP": {
+        "indicator_modality": {
+        "Move Permanently to Another Country":{
+            "duration":8,
+            "modality":"Like to move to another country"
+        },
+        "National Economy Getting Better":{
+            "duration":8,
+            "modality":"Getting better"
+        },
+        "City Economy Getting Better":{
+            "duration":8,
+            "modality":"Getting better"
+        },
+        "Life Today":{
+            "duration":8,
+            "modality":"Value"
+        },
+        "Life in Five Years":{
+            "duration":8,
+            "modality":"Value"
+        },
+        "Corruption in Government":{
+            "duration":8,
+            "modality":"Yes"
+        },
+        "Corruption Within Businesses":{
+            "duration":8,
+            "modality":"Yes"
+        },
+        "Money Property Stolen":{
+            "duration":8,
+            "modality":"Yes"
+        },
+        "Safe Walking Alone":{
+            "duration":8,
+            "modality":"Yes"
+        },
+        "City Quality Healthcare":{
+            "duration":1,
+            "modality":"Satisfied"
+        },
+        "Educational System":{
+            "duration":1,
+            "modality":"Satisfied"
+        },
+        "Overall City Satisfaction":{
+            "duration":1,
+            "modality":"Satisfied"
+        },
+        "Preserve the Environment":{
+            "duration":1,
+            "modality":"Satisfied"
+        },
+        "Quality of Air":{
+            "duration":1,
+            "modality":"Satisfied"
+        },
+        "Quality of Water":{
+            "duration":1,
+            "modality":"Satisfied"
+        },
+        "Experience Anger Yesterday":{
+            "duration":1,
+            "modality":"Yes"
+        },
+        "Experience Sadness Yesterday":{
+            "duration":1,
+            "modality":"Yes"
+        },
+        "Experience Worry Yesterday":{
+            "duration":1,
+            "modality":"Yes"
+        },
+        "Experienced Enjoyment Yesterday":{
+            "duration":1,
+            "modality":"Yes"
+        },
+        "Ideal Job":{
+            "duration":1,
+            "modality":"Yes, it is ideal"
+        },
+        "Learn Something":{
+            "duration":1,
+            "modality":"Yes"
+        },
+        "Like What You Do Each Day":{
+            "duration":1,
+            "modality":"5. Strongly agree"
+        },
+        "Felt Active and Productive":{
+            "duration":1,
+            "modality":"5. Strongly agree"
+        },
+        "Confidence in National Government":{
+            "duration":1,
+            "modality":"Yes"
+        },
+        "Confidence in Judicial System":{
+            "duration":1,
+            "modality":"Yes"
+        },
+        "Confidence in Local Police":{
+            "duration":1,
+            "modality":"Yes"
+        },
+        "Confidence in Military":{
+            "duration":1,
+            "modality":"Yes"
+        },
+        "Honesty of Elections":{
+            "duration":1,
+            "modality":"Yes"
+        },
+        "Voiced Opinion to Official":{
+            "duration":1,
+            "modality":"Yes"
+        },
+        "Freedom of Media":{
+            "duration":1,
+            "modality":"Yes"
+        },
+        "Freedom in Your Life":{
+            "duration":1,
+            "modality":"Satisfied"
+        },
+        "Gay or Lesbian People":{
+            "duration":1,
+            "modality":"Good place"
+        },
+        "Good Place for Intellectually Disabled":{
+            "duration":1,
+            "modality":"Good place"
+        },
+        "Immigrants":{
+            "duration":1,
+            "modality":"Good place"
+        },
+        "Racial Ethnic Minorities":{
+            "duration":1,
+            "modality":"Good place"
+            }
+        },
+        
+        "Time_serie": {
+            "Move Permanently to Another Country": {
+             "id":"Move Permanently to Another Country",
+             "dataset": "../data/GWP/GWP_Move Permanently to Another Country.json",
+             "modality":"Like to move to another country",
+             "duration":8
+                }
+            },
+        "Double_Time_serie": {
+            "Conditions Economiques": {
+              "id1":"National Economy Getting Better",
+              "id2":"City Economy Getting Better",
+              "duration": 8,
+              "dataset1": "data/GWP_National Economy Getting Better.json",
+              "modality1":"Getting better",
+              "dataset2": "data/GWP_City Economy Getting Better.json",
+              "modality2":"Getting better",
+              "emplacement":"environnement economique",
+              "title": "Conditions Economiques"
+            },
+            "Satisfaction des population (0-10)": {
+              "id1":"Life Today",
+              "id2":"Life in Five Years",
+                "duration": 8,
+                "dataset1": "data/GWP_Life Today.json",
+                "modality1":"Value",
+                "dataset2":"data/GWP_Life in Five Years.json",
+                "modality2":"Value",
+                "emplacement":"Developpement Humain Durable",
+                "title": "Satisfaction des population (0-10)"
+            },
+            "Corruption Evolution": {
+              "id1":"Corruption in Government",
+              "id2":"Corruption Within Businesses",
+                "duration": 8,
+                "dataset1": "data/GWP_Corruption in Government.json",
+                "modality1":"Yes",
+                "dataset2":"data/GWP_Corruption Within Businesses.json",
+                "modality2":"Yes",
+                "emplacement":"Environnement Institutionnel",
+                "title": "Corruption Evolution"
+            },
+            "Sentiment de sécurité": {
+              "id1":"Money Property Stolen",
+              "id2":"Safe Walking Alone",
+                "duration": 8,
+                "dataset1": "data/GWP_Money Property Stolen.json",
+                "modality1":"Yes",
+                "dataset2":"data/GWP_Safe Walking Alone.json",
+                "modality2":"Yes",
+                "emplacement":"Environnement Institutionnel",
+                "title": "Sentiment de sécurité"
+            }
+        },
+        "RadarM3": {
+            "Satisfaction Ville, santé et éducation": {
+                "duration": 1,
+                "nb_dimension":3,
+                "title": "Satisfaction Ville, santé et éducation",
+                "emplacement":"Developpement Humain Durable",
+                "dataset1": "data/GWP_City Quality Healthcare.json",
+                "id1": "City Quality Healthcare",
+                "modality1":"Satisfied",
+                "dataset2":"data/GWP_Educational System.json",
+                "id2":"Educational System",
+                "modality2":"Satisfied",
+                "dataset3":"data/GWP_Overall City Satisfaction.json",
+                "id3":"Overall City Satisfaction",
+                "modality3":"Satisfied"          
+            },
+        "Satisfaction politique environnementale": {
+                "duration": 1,
+                "nb_dimension":3,
+                "title": "Satisfaction politique environnementale",
+                "emplacement":"Developpement Humain Durable",
+                "id1": "Preserve the Environment",
+                "dataset1": "data/GWP_Preserve the Environment.json",
+                "modality1":"Satisfied",
+                "id2":"Quality of Air",
+                "dataset2":"data/GWP_Quality of Air.json",
+                "modality2":"Satisfied",
+                "id3":"Quality of Water",
+                "dataset3":"data/GWP_Quality of Water.json",
+                "modality3":"Satisfied"          
+            }            
+        },
+        "RadarM4": {
+            "Bien-être subjectif": {
+                "duration": 1,
+                "nb_dimension":4,
+                "title":"Bien-être subjectif",
+                "emplacement":"Developpement Humain Durable",
+                "dataset1": "data/GWP_Experience Anger Yesterday.json",
+                "id1": "Experience Anger Yesterday",
+                "modality1":"Yes",
+                "dataset2":"data/GWP_Experience Sadness Yesterday.json",
+                "id2":"Experience Sadness Yesterday",
+                "modality2":"Yes",
+                "dataset3":"data/GWP_Experience Worry Yesterday.json",
+                "id3":"Experience Worry Yesterday",
+                "modality3":"Yes",
+                "dataset4":"data/GWP_Experienced Enjoyment Yesterday.json",
+                "id4":"Experienced Enjoyment Yesterday",
+                "modality4":"Yes" 
+            },
+            "Satisfaction au travail": {
+                "duration": 1,
+                "nb_dimension":4,
+                "title":"Satisfaction au travail",
+                "emplacement":"Developpement Humain Durable",
+                "dataset1": "data/GWP_Ideal Job.json",
+                "id1": "Ideal Job",
+                "modality1":"Yes, it is ideal",
+                "dataset2":"data/GWP_Learn Something.json",
+                "id2":"Learn Something",
+                "modality2":"Yes",
+                "dataset3":"data/GWP_Like What You Do Each Day.json",
+                "id3":"Like What You Do Each Day",
+                "modality3":"5. Strongly agree",
+                "dataset4":"data/GWP_Felt Active and Productive.json",
+                "id4":"Felt Active and Productive",
+                "modality4":"5. Strongly agree" 
+            },
+            "Confiance dans les institutions": {
+                "duration": 1,
+                "nb_dimension":4,
+                "title":"Confiance dans les institutions",
+                "emplacement":"Environnement institutionnel",
+                "dataset1": "data/GWP_Confidence in National Government.json",
+                "id1": "Confidence in National Government",
+                "modality1":"Yes",
+                "dataset2":"data/GWP_Confidence in Judicial System.json",
+                "id2":"Confidence in Judicial System",
+                "modality2":"Yes",
+                "dataset3":"data/GWP_Confidence in Local Police.json",
+                "id3":"Confidence in Local Police",
+                "modality3":"Yes",
+                "dataset4":"data/GWP_Confidence in Military.json",
+                "id4":"Confidence in Military",
+                "modality4":"Yes" 
+            },
+            "Empowerment": {
+                "duration": 1,
+                "nb_dimension":4,
+                "title":"Empowerment",
+                "emplacement":"Environnement institutionnel",
+                "dataset1": "data/GWP_Honesty of Elections.json",
+                "id1": "Honesty of Elections",
+                "modality1":"Yes",
+                "dataset2":"data/GWP_Voiced Opinion to Official.json",
+                "id2":"Voiced Opinion to Official",
+                "modality2":"Yes",
+                "dataset3":"data/GWP_Freedom of Media.json",
+                "id3":"Freedom of Media",
+                "modality3":"Yes",
+                "dataset4":"data/GWP_Freedom in Your Life.json",
+                "id4":"Freedom in Your Life",
+                "modality4":"Satisfied" 
+            },
+            "Toléreance envers les minorités": {
+                "duration": 1,
+                "nb_dimension":4,
+                "title":"Toléreance envers les minorités",
+                "emplacement":"Environnement institutionnel",
+                "dataset1": "data/GWP_Gay or Lesbian People.json",
+                "id1": "Gay or Lesbian People",
+                "modality1":"Good place",
+                "dataset2":"data/GWP_Good Place for Intellectually Disabled.json",
+                "id2":"Good Place for Intellectually Disabled",
+                "modality2":"Good place",
+                "dataset3":"data/GWP_Immigrants.json",
+                "id3":"Immigrants",
+                "modality3":"Good place",
+                "dataset4":"data/GWP_Racial Ethnic Minorities.json",
+                "id4":"Racial Ethnic Minorities",
+                "modality4":"Good place" 
+            }
+        },
+        "RadarM5": {
+        "Emploi": {
+                "duration": 1,
+                "nb_dimension":5,
+                "title": "Emploi",
+                "emplacement":"Developpement Humain Durable",
+                "dataset1": "data/GWP_Employment Status.json",
+                "id1": "Employment Status",
+                "modality1":"Employed full time for self",
+                "dataset2":"data/GWP_Employment Status.json",
+                "id2":"Employment Status",
+                "modality2":"Employed full time for an employer",
+                "dataset3":"data/GWP_Employment Status.json",
+                "id3":"Employment Status",
+                "modality3":"Employed part time want full time",
+                "dataset4":"data/GWP_Employment Status.json",
+                "id4":"Employment Status",    
+                "modality4":"Unemployed",
+                "dataset5":"data/GWP_Employment Status.json",
+                "id5":"Employment Status",
+                "modality5":"Out of workforce"  
+            }
+        },
+        "Map": {
+            "National Economy Getting Better": {
+                "duration": 1,
+                "dataset": "../data/GWP/GWP_National Economy Getting Better.json",
+                "emplacement":"environnement economique",
+                "title":"National Economy Getting Better",
+                "modality":"Getting better"
+            },
+            "Corruption in Government": {
+                "duration": 1,
+                "dataset": "../data/GWP/GWP_Corruption in Government.json",
+                "emplacement":"environnement institutionnel",
+                "title":"Corruption in Government",
+                "modality":"Yes"
+            },
+            "Corruption Within Businesses": {
+                "duration": 1,
+                "dataset": "../data/GWP/GWP_Corruption Within Businesses.json",
+                "emplacement":"environnement institutionnel",
+                "title":"Corruption Within Businesses",
+                "modality":"Yes"
+            },
+            "Money Property Stolen": {
+                "duration": 1,
+                "dataset": "../data/GWP/GWP_Money Property Stolen.json",
+                "emplacement":"environnement institutionnel",
+                "title":"Money Property Stolen",
+                "modality":"Yes"
+            }
+        }
+    }
+}
